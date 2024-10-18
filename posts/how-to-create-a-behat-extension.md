@@ -230,6 +230,8 @@ class LogsContext implements Context
 
 Congratulations! You've just created a simple Behat extension that logs scenario timings. This extension demonstrates the three essential steps to building a Behat extension: defining an **extension**, creating an **initializer**, and configuring **contexts**.
 
+You can find this extension as a boilerplate with a testable scenario here: [monitaurus/behat-extension-boilerplate](https://github.com/monitaurus/behat-extension-boilerplate).
+
 Feel free to experiment with this extension and expand its functionality. For further learning, check out the [Behat hooks documentation](https://behat.org/en/latest/user_guide/context/hooks.html) and explore existing extensions on [GitHub](https://github.com/search?o=desc&q=behat+extension+in%3Aname%2Cdescription+language%3APHP&ref=searchresults&s=stars&type=Repositories&utf8=%E2%9C%93).
 
 Happy testing!
