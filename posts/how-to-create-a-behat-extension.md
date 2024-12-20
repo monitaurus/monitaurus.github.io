@@ -1,5 +1,7 @@
 # How to Create a Behat Extension
 
+> ℹ️ You can now found an edited version of this post into Behat documentation's cookbooks: [Creating a Behat extension to provide custom configuration for Contexts](https://docs.behat.org/en/latest/cookbooks/creating_a_context_configuration_extension.html).
+
 I like using [Behat](https://docs.behat.org/en/latest/#) as it brings user-oriented concerns within the hands of developers. It's also a mature tool, simply bridging the gap between the [Gherkin syntax](https://cucumber.io/docs/gherkin/reference/) and PHP. No more needed. No more new feature to add.
 
 While looking to automatically validate API's response against an [OpenAPI](https://spec.openapis.org/oas/latest.html) schema, I found out about Behat extensions. Plenty are available on [GitHub](https://github.com/search?o=desc&q=behat+extension+in%3Aname%2Cdescription+language%3APHP&ref=searchresults&s=stars&type=Repositories&utf8=%E2%9C%93). But strangely enough, I didn't find any documentation within Behat's site. I had to look into Behat and extension's code to understand what they can do, and how to create one.
